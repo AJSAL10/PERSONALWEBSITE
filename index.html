@@ -27,6 +27,28 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
+<nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5" style="display: flex;">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <!-- <h1 class="m-0 display-5"><span class="text-primary">AJSAL</span>AJSAL</h1> -->
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#portfolio" class="nav-item nav-link">Works</a>
+<!--                <a href="#testimonial" class="nav-item nav-link">Review</a>-->
+                <a href="#blog" class="nav-item nav-link">Projects</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+
+        </div>
+    </nav>
     <!-- Video Modal Start -->
     <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -47,23 +69,24 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+    <div class="container-fluid  d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh; background-image: url('img/bgimg1.jpg'); background-size: cover; background-position: center;">
         <div class="container">
             <div class="row align-items-center">
 <!--                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">-->
 <!--                    <img class="img-fluid w-80 rounded-circle shadow-sm" src="img/img3.jpg" alt="">-->
 <!--                </div>-->
                 <div class=" text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
-                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">MOHAMMED AJSAL T</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <h3 class="text-green font-weight-normal mb-3">I'm</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px ;">MOHAMMED AJSAL T</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-green"></h1>
                     <div class="typed-text d-none">PYTHON FULL STACK DEVELOPER</div>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="https://drive.google.com/file/d/1xrLfSlU712wb2iBmUzNQf5ALRycGfZeJ/view?usp=drive_linkgit " class="btn btn-outline-light mr-3">Download CV</a>
-                        <a href="https://www.instagram.com/aj_sal____/"><img  src="img/insta.png" alt="" width="30px" height="30px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://www.linkedin.com/in/mohammed-ajsal-t/"><img src="img/linedin.png" alt="" width=29px" height="29px"></a>&nbsp;&nbsp;
-                        <a href="https://github.com/AJSAL10"><img  src="img/github.png" alt="" width="50px" height="50px"></a>&nbsp;
-                        <a href="mailto:memohammedajsal@gmail.com"><img src="img/mail.png" alt="" width="35px" height="35px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://drive.google.com/file/d/1xrLfSlU712wb2iBmUzNQf5ALRycGfZeJ/view?usp=drive_linkgit " class="btn btn-outline-light mr-3">Download CV</a>
+                            <a class=" btn-outline-light mr-3 "  href="mailto:memohammedajsal@gmail.com"><i class="fa fa-envelope" ></i></a>
+                            <a class=" btn-outline-light mr-3" href="https://github.com/AJSAL10"><i class="fab fa-git"></i></a>
+                            <a class=" btn-outline-light mr-3" href="https://www.linkedin.com/in/mohammed-ajsal-t/"><i class="fab fa-linkedin-in"></i></a>
+                            <a class=" btn-outline-light " href="https://www.instagram.com/aj_sal____/"><i class="fab fa-instagram"></i></a>
+                       
                     </div><br>
                 </div>
             </div>
@@ -76,7 +99,7 @@
     <div class="container-fluid py-5" id="about">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #92967a;">About</h1>
                 <h1 class="position-absolute text-uppercase text-primary">Me</h1>
             </div>
             <div class="row align-items-center">
@@ -84,7 +107,7 @@
                     <img class="img-fluid rounded w-100" src="img/img2.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
-                    <h3 class="mb-4">PYTHON FULL STACK DEVELOPER</h3>
+                    <h3 class=" mb-4">PYTHON FULL STACK DEVELOPER</h3>
                     <p>I am Mohammed Ajsal T,Looking to establish a career in the field of  Information Technology.Graduated with a Bachelor's degree in Computer Application and a passion for
                         Python programming currently doing an internship in python full stack development.
                         Completed several projects using Django frameworks, demonstrating a strong
@@ -101,7 +124,7 @@
                         <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Ernakulam,Kerala</span></h6></div>
                         
                     </div>
-                    <a href="#qualification" class="btn btn-outline-primary">Learn More</a>
+                    <a href="#qualification" class="btn btn-outline-light">Learn More</a>
                 </div>
             </div>
         </div>
@@ -113,13 +136,13 @@
     <div class="container-fluid py-5" id="qualification">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #92967a;">Quality</h1>
                 <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h3 class="mb-4">My Education</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                    <div class="border-left border-green pt-2 pl-4 ml-2">
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
                             <h5 class="font-weight-bold mb-1">BACHELOR DEGREE</h5>
@@ -143,7 +166,7 @@
                 </div>
                 <div class="col-lg-6">
                     <h3 class="mb-4">My Expericence</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                    <div class="border-left  pt-2 pl-4 ml-2">
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
                             <h5 class="font-weight-bold mb-1">Intern | Python-Django Full Stack Web Development</h5>
@@ -170,7 +193,7 @@
     <div class="container-fluid py-5" id="skill">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #92967a">Skills</h1>
                 <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
             </div>
             <div class="row align-items-center">
@@ -244,12 +267,12 @@
     <div class="container-fluid pt-5" id="service">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #92967a;">Service</h1>
                 <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
             </div> <div class="row pb-3">
                 <div class="col-lg-4 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <i class="fa fa-2x fa-laptop service-icon bg-white text-green mr-3"></i>
                         <h4 class="font-weight-bold m-0">Web Design</h4>
                     </div>
                     <p>Creating attractive and responsive website that meet the specific Requirements</p>
@@ -257,7 +280,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-white text-green mr-3"></i>
                         <h4 class="font-weight-bold m-0">Web Development</h4>
                     </div>
                     <p>Creating Beautifull and Responsive websites and  maintenance it</p>
@@ -273,7 +296,7 @@
     <div class="container-fluid pt-5 pb-3" id="portfolio">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Works</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #92967a;">Works</h1>
                 <h1 class="position-absolute text-uppercase text-primary">My Works</h1>
             </div>
         
@@ -283,7 +306,7 @@
                         <img class="img-fluid rounded w-100" src="img/Gallery1.png" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                             <a href="img/Gallery1.png" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                <i class="fa fa-plus text-green" style="font-size: 60px;"></i>
                             </a>
                         </div>
                     </div>
@@ -293,7 +316,7 @@
                         <img class="img-fluid rounded w-100" src="img/Gallery2.png" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                             <a href="img/Gallery2.png" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                <i class="fa fa-plus text-green" style="font-size: 60px;"></i>
                             </a>
                         </div>
                     </div>
@@ -303,7 +326,7 @@
                         <img class="img-fluid rounded w-100" src="img/Gallery3.png" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                             <a href="img/Gallery3.png" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                <i class="fa fa-plus text-green" style="font-size: 60px;"></i>
                             </a>
                         </div>
                     </div>
@@ -313,7 +336,7 @@
                         <img class="img-fluid rounded w-100" src="img/Gallery5.png" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                             <a href="img/Gallery5.png" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                <i class="fa fa-plus text-green" style="font-size: 60px;"></i>
                             </a>
                         </div>
                     </div>
@@ -323,7 +346,7 @@
                         <img class="img-fluid rounded w-100" src="img/Gallery6.png" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                             <a href="img/Gallery6.png" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                <i class="fa fa-plus text-green" style="font-size: 60px;"></i>
                             </a>
                         </div>
                     </div>
@@ -342,7 +365,7 @@
     <div class="container-fluid pt-5" id="blog">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">projects</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #92967a;">projects</h1>
                 <h1 class="position-absolute text-uppercase text-primary">My projects</h1>
             </div>
             <div class="row">
@@ -351,22 +374,22 @@
                         <img class="img-fluid rounded w-100" src="img/Gallery2.png" alt="">
                         <div class="blog-date">
                             <h4 class="font-weight-bold mb-n1">18</h4>
-                            <small class="text-white text-uppercase">Dec</small>
+                            <small class="text-white text-uppercase">Sep</small>
                         </div>
                     </div>
                     <h5 class="font-weight-medium mb-4">BIGMART :- It is a  website for supermarket</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/AJSAL10/BIGMART-E-Commerce-">More Details</a>
+                    <a class="btn btn-sm btn-outline-light py-2" href="https://github.com/AJSAL10/BIGMART-E-Commerce-">More Details</a>
                 </div>
                 <div class="col-lg-4 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/Gallery1.png" alt="">
+                        <img class="img-fluid rounded mb-n1 w-100" src="img/Gallery1.png" alt="">
                         <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">20</h4>
+                            <h4 class="font-weight-bold mb-n1 ">20</h4>
                             <small class="text-white text-uppercase">Feb</small>
                         </div>
                     </div>
                     <h5 class="font-weight-medium mb-4">ZYNC :- It is E-Commerce website for Buying APPLE products</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="https://github.com/AJSAL10/Zync-E-Commerce-website">More Details</a>
+                    <a class="btn btn-sm btn-outline-light py-2" href="https://github.com/AJSAL10/Zync-E-Commerce-website">More Details</a>
                 </div>
         </div>
     </div>
@@ -377,7 +400,7 @@
     <div class="container-fluid py-5" id="contact">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #92967a;">Contact</h1>
                 <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
             </div>
             <div class="row justify-content-center">
@@ -388,24 +411,24 @@
                             <input type="hidden" name="access_key" value="9281c411-1b42-4cfc-8ef2-e7d425fee46f">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" name="Your name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name">
+                                    <input type="text" class="form-control p-4 btn-outline-cnt" name="Your name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" >
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" name="Your email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email">
+                                    <input type="email" class="form-control p-4  btn-outline-cnt" name="Your email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control p-4" name="Your subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject">
+                                <input type="text" class="form-control p-4 btn-outline-cnt" name="Your subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" name="Your message" placeholder="Message" required="required" data-validation-required-message="Please enter your message" aria-invalid="false"></textarea>
+                                <textarea class="form-control py-3 px-4 btn-outline-cnt" rows="5" name="Your message" placeholder="Message" required="required" data-validation-required-message="Please enter your message" aria-invalid="false"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-outline-primary" type="submit">Send
+                                <button class="btn btn-outline-light" type="submit">Send
                                     Message</button>
                             </div>
                         </form>
@@ -417,7 +440,7 @@
 <!-- contact end -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+    <div class="container-fluid bg-primary text-green mt-5 py-5 px-sm-3 px-md-5">
         <div class="container text-center py-5">
             <div class="d-flex justify-content-center mb-4">
                 <a class="btn btn-light btn-social mr-2" href="mailto:memohammedajsal@gmail.com"><i class="fa fa-envelope"></i></a>
@@ -444,7 +467,7 @@
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <a href="#" class="btn btn-outline-light px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

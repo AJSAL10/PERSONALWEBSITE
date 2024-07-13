@@ -2857,15 +2857,20 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
 }
 
-.btn-outline-light {
+.btn-outline-cnt {
   color: #ffffff;
-  border-color: #ffffff;
+  border-color: #92967a;
+}
+
+.btn-outline-light {
+  color: #92967a;
+  border-color: #92967a;
 }
 
 .btn-outline-light:hover {
   color: #212529;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: #92967a;
+  border-color: #92967a;
 }
 
 .btn-outline-light:focus, .btn-outline-light.focus {
@@ -6355,7 +6360,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #0BCEAF !important;
+  background-color: #dad9d9 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9524,8 +9529,13 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+
+.text-green {
+  color: #92967a !important;
+}
+
 .text-primary {
-  color: #0BCEAF !important;
+  color: #ebbb97 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9803,7 +9813,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0BCEAF;
+  color: #af683c;
 }
 
 @media (max-width: 991.98px) {
@@ -9974,7 +9984,7 @@ h6,
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border-radius: 60px;
-  background: #0BCEAF;
+  background: #92967a;
 }
 
 .contact-form .help-block ul {
